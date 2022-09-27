@@ -13,34 +13,33 @@ p3 {
 
 a.button3{
     display:inline-block;
-    padding:0.3em 1.2em;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
     margin:0 0.3em 0.3em 0;
-    border-radius:3em;
-    border-color:rgb(0, 0, 0);
+    border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:#ffffff;
-    background-color:#00a2ff5c;
+    color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
-    -webkit-text-stroke: 0.2px black;
     }
     a.button3:hover{
-    background-color:#4095c6;
+        color:#000000;
+        background-color:#FFFFFF;
     }
     @media all and (max-width:30em){
     a.button3{
-    display:block;
-    margin:0.2em auto;
+        display:block;
+        margin:0.4em auto;
     }
 }
 
 body {
     background-color: rgb(66, 66, 66);
     color: rgb(48, 48, 48);
-    background-image: url(../b22aa22b2f3f55b6468361158d52e2e7.gif);
+    background-image: url(../a.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat:repeat;
@@ -54,6 +53,8 @@ body {
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
+
+
 
 
 h1 {
