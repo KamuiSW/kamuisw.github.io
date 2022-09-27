@@ -16,12 +16,13 @@ a.button3{
     padding:0.3em 1.2em;
     margin:0 0.3em 0.3em 0;
     border-radius:3em;
+    border-color:rgb(0, 0, 0);
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
     color:#ffffff;
-    background-color:#00a2ff;
+    background-color:#00a2ff5c;
     text-align:center;
     transition: all 0.2s;
     -webkit-text-stroke: 0.2px black;
