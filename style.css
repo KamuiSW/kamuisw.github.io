@@ -45,8 +45,8 @@ body {
     background-repeat:repeat;
     background-attachment:fixed;
     overflow:scroll;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    
+    font-family: "Comic Sans MS", "Comic Sans";
+    align-items: center;
     
 }
     
@@ -61,9 +61,15 @@ h1 {
     color: rgb(0, 225, 255);
     position: relative;
     text-align: center;
-    top: 160px;
+    text-justify: center;
+    text-align: center;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-align: center;
+    top: 160px;
 }
+.title {
+    text-align: center;
+  }
 
 h2 {
     color: rgb(0, 162, 255);
