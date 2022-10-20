@@ -66,6 +66,7 @@ h1 {
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-align: center;
     top: 160px;
+    display: inline-block
 }
 .title {
     text-align: center;
@@ -79,9 +80,11 @@ h2 {
 h3 {
     color:rgb(0, 204, 255);
     position: relative;
+    text-justify: center;
     text-align: center;
     top: 160px;
     -webkit-text-stroke: 1px black; /* width and color */
+
 }
 
 h4{
