@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(66, 66, 66);
-    color: rgb(48, 48, 48);
-    background-image: url(IMG/static.jpg);
+    background-color: #adabaa;
+    background-image: url(5ddcfbce2ae4c1574763470383.jpg);
+    color: rgb(49 53 52);
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat:repeat;
@@ -14,7 +14,7 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-/* h's */
+/* h's     background-image: url(IMG/static.jpg); */
 h1 {
     color: rgb(248, 248, 248);
     position: relative;
@@ -23,6 +23,21 @@ h1 {
     top: 160px;
     display: inline-block;
     align-items: center;
+}
+
+h1In{
+    color: #ffffff;
+    position: relative;
+    text-justify: center;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-left-style: solid;
+    padding-left: 3%;
+    border-left-width: 10px;
+    border-left-color: #F0A72E;
+    margin-top: 110%;
+    margin-left: -5%;
 }
 
 h2 {
@@ -39,6 +54,19 @@ h3 {
     position: relative;
     text-justify: center;
     top: 160px;
+}
+
+h3In{
+    color:#F0A72E;
+    position: relative;
+    text-justify: center;
+    margin-left:auto;
+    top: 410px;
+    left: -5px;
+    border-left-style: solid;
+    padding-left: 1%;
+    border-left-width: 10px;
+    border-left-color: #F0A72E;
 }
 
 h4{
@@ -117,6 +145,11 @@ video {
     top: 150px;
 }
 /* div */
+
+.IndexIntro{
+    margin-left: 10%;
+}
+
 .title {
     text-align: center;
   }
@@ -136,20 +169,23 @@ video {
 a.button3{
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
     margin:0 0.3em 0.3em 0;
+    border-style: solid;
+    border-color: #0000006b;
+    border-width: 2px;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:#FFFFFF;
+    color:rgb(255, 255, 255);
     text-align:center;
     transition: all 0.2s;
+    background-color: #2ef0e065;
     }
     a.button3:hover{
         color:#000000;
-        background-color:#FFFFFF;
+        background-color:#448fff;
     }
     @media all and (max-width:30em){
     a.button3{
@@ -165,6 +201,7 @@ a.button3{
 /* Dropdown Button */
 .dropbtn {
     display:inline-block;
+    background-color: #555;
     padding:0.35em 1.2em;
     border:0.1em solid #FFFFFF;
     margin:0 0.3em 0.3em 0;
