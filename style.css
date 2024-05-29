@@ -1,6 +1,6 @@
 body {
     background-color: #adabaa;
-    background-image: url(IMG/static.jpg);
+    background-image: url(IMG/Leaf.jpg);
     color: rgb(49 53 52);
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ h1In{
     border-left-style: solid;
     padding-left: 3%;
     border-left-width: 10px;
-    border-left-color: #F0A72E;
+    border-left-color: #444444;
     margin-top: 110%;
     margin-left: -5%;
 }
@@ -57,7 +57,7 @@ h3 {
 }
 
 h3In{
-    color:#F0A72E;
+    color:#444444;
     position: relative;
     text-justify: center;
     margin-left:auto;
@@ -66,7 +66,7 @@ h3In{
     border-left-style: solid;
     padding-left: 1%;
     border-left-width: 10px;
-    border-left-color: #F0A72E;
+    border-left-color: #444444;
 }
 
 h4{
@@ -181,11 +181,11 @@ a.button3{
     color:rgb(255, 255, 255);
     text-align:center;
     transition: all 0.2s;
-    background-color: #2ef0e065;
+    background-color: #67676775;
     }
     a.button3:hover{
         color:#000000;
-        background-color:#448fff;
+        background-color:#ffffffd2;   
     }
     @media all and (max-width:30em){
     a.button3{
