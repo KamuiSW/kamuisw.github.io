@@ -26,18 +26,13 @@ h1 {
 }
 
 h1In{
-    color: #ffffff;
-    position: relative;
-    text-justify: center;
-    text-align: center;
+    color: #e6e6e6;
     display: inline-block;
     align-items: center;
-    border-left-style: solid;
-    padding-left: 3%;
-    border-left-width: 10px;
-    border-left-color: #444444;
-    margin-top: 110%;
-    margin-left: -5%;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 39%;
+    font-weight: bold;
 }
 
 h2 {
@@ -57,16 +52,12 @@ h3 {
 }
 
 h3In{
-    color:#444444;
-    position: relative;
-    text-justify: center;
-    margin-left:auto;
-    top: 410px;
-    left: -5px;
-    border-left-style: solid;
-    padding-left: 1%;
-    border-left-width: 10px;
-    border-left-color: #444444;
+    color: #ffffff;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 1%;
 }
 
 h4{
@@ -169,23 +160,20 @@ video {
 a.button3{
     display:inline-block;
     padding:0.35em 1.2em;
+    
     margin:0 0.3em 0.3em 0;
-    border-style: solid;
-    border-color: #0000006b;
-    border-width: 2px;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:rgb(255, 255, 255);
+    color:#ffffff;
     text-align:center;
     transition: all 0.2s;
-    background-color: #67676775;
     }
     a.button3:hover{
-        color:#000000;
-        background-color:#ffffffd2;   
+        color:#ffffff4b;
+        background-color:#ffffff4f;
     }
     @media all and (max-width:30em){
     a.button3{
