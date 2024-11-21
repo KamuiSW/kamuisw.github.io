@@ -27,12 +27,11 @@ h1 {
 
 h1In{
     color: #e6e6e6;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 39%;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15%;
 }
 
 h2 {
